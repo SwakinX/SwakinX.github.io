@@ -1,8 +1,11 @@
 ---
 title: MoonCancer局内修改器
+published: 2025-08-17
+description: ''
+image: ''
 tags: [fgo, 脚本, MoonCancer]
-published: 2025-08-15
 category: MoonCancer
-draft: true
+draft: false 
+lang: ''
 ---
 Alter

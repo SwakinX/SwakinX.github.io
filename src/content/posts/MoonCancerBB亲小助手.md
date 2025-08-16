@@ -1,12 +1,13 @@
 ---
-title: MoonCancer BB亲小助手
-related_posts: MoonCancer局内修改器
+title: MoonCancerBB亲小助手
+published: 2025-08-17
+description: ''
+image: ''
 tags: [fgo, 脚本, MoonCancer]
-published: 2025-08-15
 category: MoonCancer
-draft: true
+draft: false 
+lang: ''
 ---
-
 <font size=5>**配置不够？不能满羁绊？刷本太慢？真拿你没办法，前辈 ❤，让 BB 亲来帮你吧**</font>
 
 ## 功能简介
