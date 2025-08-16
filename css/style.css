@@ -6,6 +6,7 @@
   --neut-L10: rgba(255,255,255,0.1);
   --banner-dim: rgba(0,0,0,0.2);
   --primary-hue: 250;
+  --card-background: rgba(48,50,52,0.8);
   --main-title: rgba(255,255,255,0.9);
   --btn-content: var(--neut-L75);
   --btn-content-hover: var(--btn-content);
@@ -41,7 +42,6 @@
     --primary: oklch(0.75 0.14 var(--primary-hue));
     --nav-dropdown-bg: oklch(0.2 0.02 var(--primary-hue));
     --page-background: oklch(0.16 0.014 var(--primary-hue));
-    --card-background: oklch(0.25 0.02 var(--primary-hue));
     --btn-bg: oklch(0.38 0.04 var(--primary-hue));
     --btn-hover: oklch(0.45 0.045 var(--primary-hue));
     --btn-active: oklch(0.5 0.05 var(--primary-hue));
@@ -76,7 +76,6 @@
     --primary: #63b3ff;
     --nav-dropdown-bg: #0f171f;
     --page-background: #090e13;
-    --card-background: #1a222b;
     --btn-bg: #324457;
     --btn-hover: #42576e;
     --btn-active: #4d667f;
@@ -107,7 +106,7 @@
   }
 }
 :root[theme='light'] {
-  --card-background: #fff;
+  --card-background: rgba(255,255,255,0.651);
   --banner-dim: none;
   --neut-L90: rgba(0,0,0,0.9);
   --neut-L75: rgba(0,0,0,0.75);
