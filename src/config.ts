@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		enable: true,
 		src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
 			text: "", // Credit text to be displayed
@@ -31,11 +31,16 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		{
+			src: "/favicon/Sakura.png", // Path of the favicon, relative to the /public directory
+			theme: "light", // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			// sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
+		{
+			src: "/favicon/Sakura.png", // Path of the favicon, relative to the /public directory
+			theme: "dark", // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			// sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -53,8 +58,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar:
-		"https://avatars.githubusercontent.com/u/98936255?s=400&u=52f9de26ab14db16f5584010f5b010bcdbb807a1&v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Swakin",
 	bio: "俺が求めているのは…感動だ",
 	links: [
