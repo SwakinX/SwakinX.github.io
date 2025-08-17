@@ -67,6 +67,13 @@ const jsonLd = {
                         {remarkPluginFrontmatter.minutes} {" " + i18n(remarkPluginFrontmatter.minutes === 1 ? I18nKey.minuteCount : I18nKey.minutesCount)}
                     </div>
                 </div>
+                <!-- 新增阅读量统计 -->
+                <div class="flex flex-row items-center">
+                    <div class="transition h-6 w-6 rounded-md bg-black/5 dark:bg-white/10 text-black/50 dark:text-white/50 flex items-center justify-center mr-2">
+                        <Icon name="material-symbols:visibility-outline-rounded"></Icon>
+                    </div>
+                    <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span> Page Views
+                </div>
             </div>
 
             <!-- title -->
@@ -94,7 +101,6 @@ const jsonLd = {
                 ></PostMetadata>
                 {!entry.data.image && <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5"></div>}
             </div>
-
             <!-- always show cover as long as it has one -->
 
             {entry.data.image &&
@@ -132,5 +138,5 @@ const jsonLd = {
             </div>}
         </a>
     </div>
-
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </MainGridLayout>
