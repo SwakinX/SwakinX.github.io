@@ -4,7 +4,7 @@ published: 2025-08-18
 description: '对抗那轮回不止的吞噬。'
 image: '../../assets/images/devourer-of-cycles.png'
 tags: [梦, DND, COC, 跑团]
-category: idea
+category: Idea
 draft: false
 ---
 *这是我的一个梦，描述后让AI总结后的结果，可能是跑团后遗症（*
