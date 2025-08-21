@@ -1,7 +1,7 @@
 ---
 title: 用Astro在github上搭建博客
 published: 2025-08-18
-description: '记录一下搭建博客踩的坑'
+description: '记录一下搭建博客踩的坑和经验'
 image: ''
 tags: [Blogs, GitHub, Astro]
 category: 'Share'
