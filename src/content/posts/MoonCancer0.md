@@ -34,6 +34,8 @@ draft: false
 ## 界面展示
 ![main.png](../../assets/images/mooncaner/main.png)
 ## 界面说明
+右上角的帮助图标可以打开`帮助`弹窗，有问题随时可以查看，如果觉得有帮助可以赞助我一点。<br>
+在启动任意任务后会出现`暂停`按钮，可以暂停执行中的任务。点击下面链接可查看每个界面具体说明：<br>
 [Moon界面说明](../mooncancer1)<br>
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
