@@ -53,7 +53,7 @@ draft: false
 ![mooncanermumusetting](../../assets/images/mooncaner/mumusetting.png)
 
 ## 脚本设置
-- 可以自动搜索已经在运行的模拟器，自动搜索只支持mumu5.0以下，蓝叠应该也可也但没测试过，搜不到就自己输入对应的参数，端口上网搜XX模拟器端口，连接问题可以参考[BBChannel](https://www.bilibili.com/opus/605452889655035035?spm_id_from=333.999.0.0)的相关说明
+- 可以自动搜索已经在运行的模拟器，自动搜索只支持mumu5.0以下，蓝叠应该也可也但没测试过，搜不到就自己输入对应的参数，端口上网搜XX模拟器端口，连接问题可以参考[BBChannel](https://www.bilibili.com/opus/605452889655035035?spm_id_from=333.999.0.0)的相关说明。`注意，如果自动搜索成功就不要动下面的模拟器路径和虚拟机进程名称`
 - 模拟器类型暂时只支持mumu和蓝叠，其他就选other，选other如果模拟器路径不对就自己改，要选择模拟器真正的启动路径，mumu5.0新版默认启动的是管理器，模拟器的程序路径其实在另一个地方
 ![settings1](../../assets/images/mooncaner/settings1.png)
 - 虚拟机进程名称是读取内存的目标，是修改的基础，**没填或没填对脚本没法正常工作**，默认就是mumu模拟器的。
