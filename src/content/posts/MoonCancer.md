@@ -1,5 +1,5 @@
 ---
-title: MoonCancer更新记录
+title: MoonCancer 更新记录
 published: 2025-08-17
 description: 'MoonCancer更新记录'
 image: '../../assets/images/mooncaner/mclogs.png'
@@ -14,6 +14,12 @@ draft: false
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
 
+## 2025年9月14日v2.2.0
+1.增加MuMu高速连接和雷电高速连接，更快更稳定，适配更多模拟器自动搜索<br>
+2.迁移战脚本设置到主页，修改更方便，活动点数限制显示逗号分隔符<br>
+3.去掉控制台，改为在主页下方文本框显示日志<br>
+4.优化程序启动，整合优化命令执行逻辑，优化连接逻辑，优化多处代码逻辑，增强稳定性<br>
+5.增加游戏崩溃重启<br>
 ## 2025年8月31日v2.1.6
 1.过主线适配部分情况<br>
 2.修复日常在主页卡住
