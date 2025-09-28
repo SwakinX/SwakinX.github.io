@@ -13,6 +13,11 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2025年9月28日v2.3.1
+1.精简合并设置项<br>
+2.适配日服日常冠位战<br>
+3.修复抽友情卡住<br>
+4.优化部分逻辑，增加日服更新补丁检测
 ## 2025年9月27日v2.3.0
 1.优化部分脚本逻辑<br>
 2.脚本适配日服<br>
