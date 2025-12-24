@@ -13,6 +13,9 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2025年12月24日v2.4.6
+1.优化部分逻辑<br>
+2.修复日服修改失效<br>
 ## 2025年12月5日v2.4.5
 1.优化MuMu连接，修复连接遗留问题<br>
 2.优化助战选择和吃苹果以及部分问题<br>
