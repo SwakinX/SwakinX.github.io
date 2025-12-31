@@ -13,6 +13,9 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2025年12月31日v2.4.7
+1.升级rapidocr=3.4.5，PySide6-Fluent-Widgets=1.10.5
+2.修复国服更新导致的修改失效
 ## 2025年12月24日v2.4.6
 1.优化部分逻辑<br>
 2.修复日服修改失效<br>
