@@ -13,6 +13,9 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年1月30日v2.4.8
+1.优化MuMu模拟器检测，避免模拟器bug（MuMu最新版已修复）<br>
+2.优化茶壶和风暴罐开关设置
 ## 2025年12月31日v2.4.7
 1.升级rapidocr=3.4.5，PySide6-Fluent-Widgets=1.10.5<br>
 2.修复国服更新导致的修改失效
