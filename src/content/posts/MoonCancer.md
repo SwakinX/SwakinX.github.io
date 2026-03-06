@@ -13,6 +13,11 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年3月6日v2.4.9
+1.优化首通关卡的关卡识别<br>
+2.过主线，清理free，首通关卡可以根据设置战斗次数结束<br>
+3.修复朗读失效<br>
+4.优化满羁绊识别
 ## 2026年1月30日v2.4.8
 1.优化MuMu模拟器检测，避免模拟器bug（MuMu最新版已修复）<br>
 2.优化茶壶和风暴罐开关设置
