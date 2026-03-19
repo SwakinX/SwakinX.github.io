@@ -1,6 +1,6 @@
 ---
 title: 在文件夹右键菜单添加cmd管理员、终端(powershell)管理员
-published: 2025-8-19
+published: 2025-08-19
 description: '在文件夹右键菜单添加cmd管理员、终端(powershell)管理员'
 image: ''
 tags: [cmd, powershell, windows]
