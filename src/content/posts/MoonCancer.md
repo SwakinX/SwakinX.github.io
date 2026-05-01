@@ -13,6 +13,11 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年5月1日v2.5.1
+1.修复models目录不存在问题<br>
+2.修复过主线在进关卡前卡住问题<br>
+3.添加国际化多语言支持<br>
+4.优化界面效果和文本，修复部分异常<br>
 ## 2026年4月13日v2.5.0
 1.新增计划任务，支持关机、休眠、挂机<br>
 2.新增OCR推理引擎切换<br>
