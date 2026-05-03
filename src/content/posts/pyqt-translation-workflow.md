@@ -9,7 +9,7 @@ draft: false
 # 正确标记文本
 这里默认你已经了解了国际化的流程和工具，具体可以[参考](https://www.hawu.me/dev/3417)，[C++版](https://runebook.dev/zh/docs/qt/qcoreapplication/translate)更底层的解释
 ## 使用.tr()
-只要是使用.tr()标记的文本不管.tr()在这里能否直接访问，都会被`pyside6-lupdate`工具添加到.ts文件。
+只要是使用.tr()标记的文本不管.tr()在这里能否直接访问，都会被`pyside6-lupdate`工具（PyQt5是`pylupdate5`）添加到.ts文件。
 
 对于类本身就继承自`QObject`的（QT组件都是），可以直接使用`self.tr()`标记文本，对于类没有继承`QObject`的，使用别的继承了`QObject`的对象调用.tr()虽然可以正常标记文本，但想要不修改文件.ts直接使用就必须让类继承`QObject`然后调用`self.tr()`。
 
@@ -27,6 +27,8 @@ QApplication.translate(context: str, sourceText: str, disambiguation: str = None
 |n              |（可选）用于处理复数形式， -1 表示不使用复数                          |
 
 对于无法直接调用或继承QObject的情况，直接使用`QApplication.translate()`，一般只需要传入前两项参数，虽然这样很长，但不要改写名称例如`tr=QApplication.translate`或封装方法后使用，这样`pyside6-lupdate`工具要么会错误理解内容要么无法识别到标记文本。
+## 使用自定义的翻译器管理
+如果不想每次都使用一长串来标记，可以放弃qt的自动托管，使用自定的翻译管理类。思路就是在需要标记的地方实例化一个`QObject`对象，然后调用.tr()进行标记，这样`pyside6-lupdate`工具会将对象名作为`context`名称，需要使用对应文本时可以通过`context`名称和原始文本从 qm 文件返回翻译文本。这里只提供简单的思路，我还未在自己的项目中实现。
 # 翻译工作流说明
 
 ## 翻译管理脚本
