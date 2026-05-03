@@ -29,6 +29,8 @@ QApplication.translate(context: str, sourceText: str, disambiguation: str = None
 对于无法直接调用或继承QObject的情况，直接使用`QApplication.translate()`，一般只需要传入前两项参数，虽然这样很长，但不要改写名称例如`tr=QApplication.translate`或封装方法后使用，这样`pyside6-lupdate`工具要么会错误理解内容要么无法识别到标记文本。
 ## 使用自定义的翻译器管理
 如果不想每次都使用一长串来标记，可以放弃qt的自动托管，使用自定的翻译管理类。思路就是在需要标记的地方实例化一个`QObject`对象，然后调用.tr()进行标记，这样`pyside6-lupdate`工具会将对象名作为`context`名称，需要使用对应文本时可以通过`context`名称和原始文本从 qm 文件返回翻译文本。这里只提供简单的思路，我还未在自己的项目中实现。
+
+对于要在界面中显示的选项等配置文本，可以单独创建一个类继承自`QObject`，单独将所有要使用的文本标记，同样在需要使用对应文本时可以通过`context`名称和原始文本从 qm 文件返回翻译文本。在配置变更时也可以获取原始文本来写入配置。
 # 翻译工作流说明
 
 ## 翻译管理脚本
