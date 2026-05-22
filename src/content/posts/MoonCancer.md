@@ -13,6 +13,10 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年5月22日v2.5.3
+1.优化冠位助战识别<br>
+2.优化脚本逻辑<br>
+3.修复杀死敌人的部分问题<br>
 ## 2026年5月4日v2.5.2
 1.新增开机自启动<br>
 2.新增记住窗口位置<br>
