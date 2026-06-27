@@ -13,6 +13,8 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年5月22日v2.5.5
+1.适配国日常服冠位战切换
 ## 2026年5月22日v2.5.4
 1.新增MuMu模拟器保活检测与自动关闭
 2.优化多血条检测
