@@ -13,6 +13,9 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年7月7日v2.6.1
+1.新增资源更新提醒<br>
+2.优化部分逻辑<br>
 ## 2026年7月5日v2.6.0
 1.新增MuMu模拟器15和雷电模拟器14支持<br>
 2.升级OCR模型和引擎<br>
