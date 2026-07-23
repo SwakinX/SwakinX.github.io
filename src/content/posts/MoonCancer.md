@@ -13,6 +13,10 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年7月23日v2.6.3
+1.优化资源更新检测逻辑<br>
+2.优化模拟器启动检测<br>
+3.修复部分UI问题<br>
 ## 2026年7月16日v2.6.2
 1.优化资源管理和下载方式<br>
 2.升级更新器和启动器<br>

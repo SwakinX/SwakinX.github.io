@@ -14,6 +14,14 @@ draft: false
 对于类本身就继承自`QObject`的（QT组件都是），可以直接使用`self.tr()`标记文本，对于类没有继承`QObject`的，使用别的继承了`QObject`的对象调用.tr()虽然可以正常标记文本，但想要不修改文件.ts直接使用就必须让类继承`QObject`然后调用`self.tr()`。
 
 因为生成的.ts里`context`名称默认为类名，使用其他对象或类的.tr()方法都不能正确处理`context`名称，要自己去修改成正确的名称才能正常生效非常麻烦。直接使用`QObject.tr()`或`QCoreApplication.tr()`都是不行的，这时`context`名称直接为空，无法对应上。
+
+因此直接让非QObject类继承自QObject，然后调用`self.tr()`方法，就可以正常标记文本。但要记得初始化用`super().__init__()`
+```python
+class MyClass(QObject):
+    def __init__(self):
+        super().__init__()
+        text = self.tr("提示")
+```
 ## 使用QCoreApplication.translate()
 ```python
 QApplication.translate(context: str, sourceText: str, disambiguation: str = None, n: int = -1) -> str
