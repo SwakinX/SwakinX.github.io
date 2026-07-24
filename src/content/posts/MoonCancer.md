@@ -13,6 +13,9 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年7月24日v2.6.4
+1.修复国服新版本修改失效<br>
+2.优化雷电模拟器连接逻辑<br>
 ## 2026年7月23日v2.6.3
 1.优化资源更新检测逻辑<br>
 2.优化模拟器启动检测<br>
