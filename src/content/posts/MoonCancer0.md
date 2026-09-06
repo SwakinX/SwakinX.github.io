@@ -2,7 +2,7 @@
 title: MoonCancer BB亲小助手
 published: 2025-08-17
 description: 'MoonCancer基础说明，快速学会如何使用MoonCaner'
-image: 'https://tsundora.com/image/2018/02/fate_stay_night_2816.jpg'
+image: '../../assets/images/mooncaner/BBbanner.png'
 tags: [fgo, 脚本, MoonCancer]
 category: MoonCancer
 draft: false 
