@@ -13,6 +13,9 @@ draft: false
 [Cancer界面说明](../mooncancer2)<br>
 [Alter界面说明](../mooncancer3)<br>
 [Eisyou界面说明](../mooncancer4)<br>
+## 2026年9月19日v2.7.2
+1.修复挂机模式超时结束问题<br>
+2.优化多开体验<br>
 ## 2026年9月13日v2.7.1
 1.修复模拟器重启后连接失效问题<br>
 2.优化启动和重启游戏逻辑<br>
